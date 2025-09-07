@@ -1,0 +1,228 @@
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Logic Loops 404</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+</head>
+<body class="bg-[#111714]">
+<div class="relative flex size-full min-h-screen flex-col text-white dark group/design-root overflow-x-hidden" style="--select-button-svg: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724px%27 height=%2724px%27 fill=%27rgb(158,183,168)%27 viewBox=%270 0 256 256%27%3e%3cpath d=%27M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z%27%3e%3c/path%3e%3c/svg%3e'); font-family: &quot;Spline Sans&quot;, &quot;Noto Sans&quot;, sans-serif;">
+<div class="flex h-full grow">
+<div class="flex flex-col w-64 bg-[#181F1C] border-r border-[#29382F]">
+<div class="flex flex-col grow p-4">
+<h1 class="text-white text-xl font-bold leading-normal px-4 mb-6">CampusConnect</h1>
+<nav class="flex flex-col gap-2">
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-300 hover:bg-[#29382f] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-sm font-medium">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-300 hover:bg-[#29382f] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">calendar_today</span>
+<span class="text-sm font-medium">Attendance</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg bg-[#29382f] text-white font-semibold" href="#">
+<span class="material-symbols-outlined text-[var(--primary-color)]">assessment</span>
+<span class="text-sm">Reports</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-300 hover:bg-[#29382f] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-sm font-medium">Settings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-300 hover:bg-[#29382f] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">help</span>
+<span class="text-sm font-medium">Help</span>
+</a>
+</nav>
+</div>
+<div class="p-4 border-t border-[#29382F]">
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-300 hover:bg-[#29382f] hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span class="text-sm font-medium">Log Out</span>
+</a>
+</div>
+</div>
+<main class="flex-1 p-8">
+<div class="max-w-7xl mx-auto">
+<div class="mb-8">
+<h2 class="text-4xl font-bold tracking-tight">Attendance Reports &amp; Analytics</h2>
+<p class="text-[#9eb7a8] mt-2">Generate and view attendance reports for courses, students, and groups.</p>
+</div>
+<div class="bg-[#181F1C] border border-[#29382F] rounded-2xl p-6 mb-8">
+<h3 class="text-xl font-semibold mb-4">Report Filters</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-end">
+<label class="flex flex-col gap-2">
+<span class="text-sm font-medium text-gray-300">Course</span>
+<select class="form-select flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border border-[#3d5245] bg-[#1c2620] focus:border-[#3d5245] h-12 bg-[image:--select-button-svg] placeholder:text-[#9eb7a8] px-4 py-2 text-base font-normal leading-normal">
+<option value="one">Select Course</option>
+<option value="two">Calculus I</option>
+<option value="three">Physics for Engineers</option>
+</select>
+</label>
+<label class="flex flex-col gap-2">
+<span class="text-sm font-medium text-gray-300">Student Group</span>
+<select class="form-select flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border border-[#3d5245] bg-[#1c2620] focus:border-[#3d5245] h-12 bg-[image:--select-button-svg] placeholder:text-[#9eb7a8] px-4 py-2 text-base font-normal leading-normal">
+<option value="one">Select Student Group</option>
+<option value="two">Group A</option>
+<option value="three">Group B</option>
+</select>
+</label>
+<label class="flex flex-col gap-2">
+<span class="text-sm font-medium text-gray-300">Start Date</span>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border border-[#3d5245] bg-[#1c2620] focus:border-[#3d5245] h-12 placeholder:text-[#9eb7a8] px-4 py-2 text-base font-normal leading-normal" type="date"/>
+</label>
+<label class="flex flex-col gap-2">
+<span class="text-sm font-medium text-gray-300">End Date</span>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-2 focus:ring-[var(--primary-color)] border border-[#3d5245] bg-[#1c2620] focus:border-[#3d5245] h-12 placeholder:text-[#9eb7a8] px-4 py-2 text-base font-normal leading-normal" type="date"/>
+</label>
+</div>
+<div class="mt-6 flex justify-start">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-[var(--primary-color)] text-[#111714] text-base font-bold leading-normal tracking-wide shadow-lg hover:bg-opacity-90 transition-all">
+<span class="truncate">Generate Report</span>
+</button>
+</div>
+</div>
+<div class="mb-8">
+<h3 class="text-xl font-semibold mb-4">Attendance Overview</h3>
+<div class="bg-[#181F1C] border border-[#29382F] rounded-2xl p-6">
+<div class="flex justify-between items-start">
+<div>
+<p class="text-gray-300">Overall Attendance Rate</p>
+<p class="text-4xl font-bold mt-1">85%</p>
+</div>
+<div class="text-right">
+<p class="text-sm text-[#9eb7a8]">Last 30 Days</p>
+<p class="text-lg font-semibold text-[var(--primary-color)] flex items-center"><span class="material-symbols-outlined text-lg">arrow_upward</span>5%</p>
+</div>
+</div>
+<div class="h-48 mt-6">
+<div class="grid h-full grid-flow-col gap-4 items-end justify-items-center">
+<div class="w-full flex flex-col items-center gap-2">
+<div class="bg-[#29382f] hover:bg-[var(--primary-color)] w-full rounded-t-lg transition-all" style="height: 70%;"></div>
+<p class="text-[#9eb7a8] text-xs font-medium">Week 1</p>
+</div>
+<div class="w-full flex flex-col items-center gap-2">
+<div class="bg-[#29382f] hover:bg-[var(--primary-color)] w-full rounded-t-lg transition-all" style="height: 50%;"></div>
+<p class="text-[#9eb7a8] text-xs font-medium">Week 2</p>
+</div>
+<div class="w-full flex flex-col items-center gap-2">
+<div class="bg-[var(--primary-color)] w-full rounded-t-lg" style="height: 90%;"></div>
+<p class="text-white text-xs font-bold">Week 3</p>
+</div>
+<div class="w-full flex flex-col items-center gap-2">
+<div class="bg-[var(--primary-color)] w-full rounded-t-lg" style="height: 85%;"></div>
+<p class="text-white text-xs font-bold">Week 4</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="flex justify-between items-center mb-4">
+<h3 class="text-xl font-semibold">Attendance Details</h3>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#29382f] text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#3d5245] transition-colors">
+<span class="material-symbols-outlined mr-2 text-base">download</span>
+<span class="truncate">Export Report</span>
+</button>
+</div>
+<div class="overflow-x-auto rounded-2xl border border-[#29382F]">
+<table class="w-full text-sm text-left text-gray-400">
+<thead class="text-xs text-gray-300 uppercase bg-[#1c2620]">
+<tr>
+<th class="px-6 py-3" scope="col">Student Name</th>
+<th class="px-6 py-3" scope="col">Student ID</th>
+<th class="px-6 py-3" scope="col">Course</th>
+<th class="px-6 py-3" scope="col">Attendance Rate</th>
+<th class="px-6 py-3" scope="col">Total Classes</th>
+<th class="px-6 py-3" scope="col">Classes Attended</th>
+</tr>
+</thead>
+<tbody>
+<tr class="bg-[#181F1C] border-b border-[#29382F] hover:bg-[#1c2620]">
+<th class="px-6 py-4 font-medium text-white whitespace-nowrap" scope="row">Liam Harper</th>
+<td class="px-6 py-4">12345</td>
+<td class="px-6 py-4">Calculus I</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-24 h-2 rounded-full bg-[#3d5245]"><div class="h-full rounded-full bg-green-400" style="width: 90%;"></div></div>
+<span class="font-medium text-white">90%</span>
+</div>
+</td>
+<td class="px-6 py-4">20</td>
+<td class="px-6 py-4">18</td>
+</tr>
+<tr class="bg-[#181F1C] border-b border-[#29382F] hover:bg-[#1c2620]">
+<th class="px-6 py-4 font-medium text-white whitespace-nowrap" scope="row">Olivia Bennett</th>
+<td class="px-6 py-4">67890</td>
+<td class="px-6 py-4">Calculus I</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-24 h-2 rounded-full bg-[#3d5245]"><div class="h-full rounded-full bg-yellow-400" style="width: 75%;"></div></div>
+<span class="font-medium text-white">75%</span>
+</div>
+</td>
+<td class="px-6 py-4">20</td>
+<td class="px-6 py-4">15</td>
+</tr>
+<tr class="bg-[#181F1C] border-b border-[#29382F] hover:bg-[#1c2620]">
+<th class="px-6 py-4 font-medium text-white whitespace-nowrap" scope="row">Noah Carter</th>
+<td class="px-6 py-4">11223</td>
+<td class="px-6 py-4">Calculus I</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-24 h-2 rounded-full bg-[#3d5245]"><div class="h-full rounded-full bg-orange-400" style="width: 80%;"></div></div>
+<span class="font-medium text-white">80%</span>
+</div>
+</td>
+<td class="px-6 py-4">20</td>
+<td class="px-6 py-4">16</td>
+</tr>
+<tr class="bg-[#181F1C] border-b border-[#29382F] hover:bg-[#1c2620]">
+<th class="px-6 py-4 font-medium text-white whitespace-nowrap" scope="row">Emma Hayes</th>
+<td class="px-6 py-4">33445</td>
+<td class="px-6 py-4">Calculus I</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-24 h-2 rounded-full bg-[#3d5245]"><div class="h-full rounded-full bg-green-500" style="width: 95%;"></div></div>
+<span class="font-medium text-white">95%</span>
+</div>
+</td>
+<td class="px-6 py-4">20</td>
+<td class="px-6 py-4">19</td>
+</tr>
+<tr class="bg-[#181F1C] hover:bg-[#1c2620]">
+<th class="px-6 py-4 font-medium text-white whitespace-nowrap" scope="row">Jackson Reed</th>
+<td class="px-6 py-4">55667</td>
+<td class="px-6 py-4">Calculus I</td>
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-24 h-2 rounded-full bg-[#3d5245]"><div class="h-full rounded-full bg-yellow-500" style="width: 85%;"></div></div>
+<span class="font-medium text-white">85%</span>
+</div>
+</td>
+<td class="px-6 py-4">20</td>
+<td class="px-6 py-4">17</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>

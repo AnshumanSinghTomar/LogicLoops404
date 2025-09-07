@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Logic Loops 404</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+      }
+    </style>
+</head>
+<body class="bg-[#111714]">
+<div class="relative flex size-full min-h-screen flex-col dark group/design-root overflow-x-hidden" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#29382f] px-10 py-3">
+<div class="flex items-center gap-4 text-white">
+<svg class="size-6" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="var(--primary-color)"></path>
+</svg>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">CampusConnect</h2>
+</div>
+<nav class="flex items-center gap-8 text-sm font-medium text-[#9eb7a8]">
+<a class="hover:text-white transition-colors" href="#">Dashboard</a>
+<a class="hover:text-white transition-colors" href="#">Courses</a>
+<a class="text-white" href="#">Attendance</a>
+<a class="hover:text-white transition-colors" href="#">Analytics</a>
+<a class="hover:text-white transition-colors" href="#">Settings</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="relative">
+<span class="material-symbols-outlined text-[#9eb7a8] hover:text-white transition-colors"> notifications </span>
+<div class="absolute top-0 right-0.5 size-2 bg-red-500 rounded-full"></div>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCAjn6fGBEwak-_eDv4pG7zv-jNoP7J3U0Fun2n4yGMiKDW_6Edrb6BrLZT1W1ls9h4_PdjDcC6dfBoo_DNvH0avKh6EWnWVegVJ60U5b3OxQqZxXlJFMM2G0svg0__sizVMkePgIFs9rrQlSFlQuGneDwcy7hmzUOKxo4lRbtv6Hq8yu6yjbYrGYYbBzE8YYQQ1eVNRiklOllaxas6R54MWZyQNRL7He_j-5gGAph0hNR58XrJJkenVn-ZJ6ARIeUI4bl6l_mvNp8");'></div>
+</div>
+</header>
+<main class="px-10 lg:px-20 xl:px-40 py-8 flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 gap-8">
+<div class="flex flex-wrap justify-between items-center gap-4">
+<div>
+<h1 class="text-white text-3xl font-bold leading-tight tracking-[-0.015em]">Attendance for CS101 - Introduction to Programming</h1>
+<p class="text-[#9eb7a8] text-base font-normal leading-normal">Fall 2024 | Section A | Room 205</p>
+</div>
+<button class="flex items-center justify-center gap-2 rounded-full h-10 px-4 bg-[var(--primary-color)] text-black text-sm font-bold leading-normal">
+<span class="material-symbols-outlined"> stop_circle </span>
+<span>End Session</span>
+</button>
+</div>
+<div class="border-b border-[#3d5245]">
+<div class="flex px-4 gap-8">
+<a class="flex flex-col items-center justify-center border-b-2 border-b-[var(--primary-color)] text-white pb-3 pt-2" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">QR Code</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-2 border-b-transparent text-[#9eb7a8] pb-3 pt-2 hover:text-white transition-colors" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Manual Check-in</p>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="md:col-span-2 flex flex-col items-center justify-center bg-[#1C2620] rounded-2xl p-8 gap-4">
+<p class="text-white text-lg font-medium">Scan the QR code to mark your attendance</p>
+<div class="bg-white p-4 rounded-lg">
+<img alt="QR Code" class="w-48 h-48" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdWqQey-4LpZTA-HQh6KYQEAIg5KvtM2vnDlc8COT7J_Pbf1efKHLInScLLvKPsOGHra_RIlJAZ91_incGbxXhpDVL07c8DUxQAYhFihe8kgkXshl7XjbjGmEy9X5zd00qRXVMMGzhUUQ_3FlOCnZH5N9zYOmEJaTL8z4i1YFqUOzUEShtZDItjQlgox9M2TXUu6WcWQIb765OSsKVvKW-MdsEf9tmIBXDe5E5jrMVd3q7rv9LojspFCd_0Rx1xlVHnoB_fhMXkvY"/>
+</div>
+<div class="flex items-center gap-4">
+<button class="flex items-center justify-center gap-2 rounded-full h-10 px-4 bg-[#29382f] text-white text-sm font-medium leading-normal hover:bg-[#3d5245] transition-colors">
+<span class="material-symbols-outlined"> refresh </span>
+<span>Regenerate</span>
+</button>
+<p class="text-sm text-[#9eb7a8]">Refreshes in 30s</p>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex flex-col gap-2 rounded-2xl p-6 bg-[#1C2620]">
+<p class="text-[#9eb7a8] text-base font-medium leading-normal">Present</p>
+<p class="text-white text-3xl font-bold leading-tight">25</p>
+</div>
+<div class="flex flex-col gap-2 rounded-2xl p-6 bg-[#1C2620]">
+<p class="text-[#9eb7a8] text-base font-medium leading-normal">Absent</p>
+<p class="text-white text-3xl font-bold leading-tight">5</p>
+</div>
+<div class="flex flex-col gap-2 rounded-2xl p-6 bg-[#1C2620]">
+<p class="text-[#9eb7a8] text-base font-medium leading-normal">Total</p>
+<p class="text-white text-3xl font-bold leading-tight">30</p>
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-white text-xl font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Attendance List</h2>
+<div class="overflow-hidden rounded-xl border border-[#3d5245] bg-[#1C2620]">
+<table class="w-full">
+<thead>
+<tr class="border-b border-b-[#3d5245]">
+<th class="px-6 py-4 text-left text-white text-sm font-medium leading-normal">Student Name</th>
+<th class="px-6 py-4 text-left text-white text-sm font-medium leading-normal">ID</th>
+<th class="px-6 py-4 text-left text-white text-sm font-medium leading-normal">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-t border-t-[#3d5245] hover:bg-[#29382f]">
+<td class="h-16 px-6 py-2 text-white text-sm font-normal leading-normal">Ethan Harper</td>
+<td class="h-16 px-6 py-2 text-[#9eb7a8] text-sm font-normal leading-normal">1234567</td>
+<td class="h-16 px-6 py-2">
+<span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400"> Present </span>
+</td>
+</tr>
+<tr class="border-t border-t-[#3d5245] hover:bg-[#29382f]">
+<td class="h-16 px-6 py-2 text-white text-sm font-normal leading-normal">Olivia Bennett</td>
+<td class="h-16 px-6 py-2 text-[#9eb7a8] text-sm font-normal leading-normal">7654321</td>
+<td class="h-16 px-6 py-2">
+<span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400"> Present </span>
+</td>
+</tr>
+<tr class="border-t border-t-[#3d5245] hover:bg-[#29382f]">
+<td class="h-16 px-6 py-2 text-white text-sm font-normal leading-normal">Noah Carter</td>
+<td class="h-16 px-6 py-2 text-[#9eb7a8] text-sm font-normal leading-normal">2468135</td>
+<td class="h-16 px-6 py-2">
+<span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400"> Present </span>
+</td>
+</tr>
+<tr class="border-t border-t-[#3d5245] hover:bg-[#29382f]">
+<td class="h-16 px-6 py-2 text-white text-sm font-normal leading-normal">Ava Morgan</td>
+<td class="h-16 px-6 py-2 text-[#9eb7a8] text-sm font-normal leading-normal">1357924</td>
+<td class="h-16 px-6 py-2">
+<span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-red-500/20 text-red-400"> Absent </span>
+</td>
+</tr>
+<tr class="border-t border-t-[#3d5245] hover:bg-[#29382f]">
+<td class="h-16 px-6 py-2 text-white text-sm font-normal leading-normal">Liam Foster</td>
+<td class="h-16 px-6 py-2 text-[#9eb7a8] text-sm font-normal leading-normal">9876543</td>
+<td class="h-16 px-6 py-2">
+<span class="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-green-500/20 text-green-400"> Present </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>

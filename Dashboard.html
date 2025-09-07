@@ -1,0 +1,176 @@
+<html><head>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Logic Loops 404</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+<div class="relative flex size-full min-h-screen flex-col bg-[#111714] dark group/design-root overflow-x-hidden" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center">
+<div class="flex w-72 flex-col border-r border-r-[#29382f] bg-[#111714] p-6">
+<div class="flex flex-col">
+<div class="flex items-center gap-3 pb-8">
+<div class="text-[#38e07b]" data-icon="Gauge" data-size="32px" data-weight="fill">
+<svg fill="currentColor" height="32px" viewBox="0 0 256 256" width="32px" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm49.33-91.43a8,8,0,0,1,0-11.31l-32-32a8,8,0,0,1-11.31,11.31L148,114.34a24,24,0,1,1-33.94-33.94l14.34-14.35a8,8,0,1,1,11.31-11.31l-32-32a8,8,0,0,1-11.32,0L64.34,64.69a8,8,0,1,1-11.31,11.31l32,32a8,8,0,0,1,11.32,0L110.7,93.66A40,40,0,1,0,93.66,110.7L79.31,125.05a8,8,0,0,1-11.31,0l-32-32a8,8,0,0,1,11.31-11.31L61.66,96a24,24,0,1,1,33.94-33.94L110,76.41,124.69,61.66a8,8,0,0,1,11.31,0l32,32A8,8,0,0,1,177.33,124.57Z"></path>
+</svg>
+</div>
+<h1 class="text-white text-lg font-semibold leading-normal">Attendance Tracker</h1>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg bg-[#29382f]">
+<span class="material-symbols-outlined text-white">dashboard</span>
+<p class="text-white text-sm font-medium">Dashboard</p>
+</div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-[#29382f]/50 transition-colors">
+<span class="material-symbols-outlined text-white/70">school</span>
+<p class="text-white/70 text-sm font-medium">Classes</p>
+</div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-[#29382f]/50 transition-colors">
+<span class="material-symbols-outlined text-white/70">groups</span>
+<p class="text-white/70 text-sm font-medium">Students</p>
+</div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-[#29382f]/50 transition-colors">
+<span class="material-symbols-outlined text-white/70">assessment</span>
+<p class="text-white/70 text-sm font-medium">Reports</p>
+</div>
+<div class="flex items-center gap-3 px-4 py-2 rounded-lg hover:bg-[#29382f]/50 transition-colors">
+<span class="material-symbols-outlined text-white/70">settings</span>
+<p class="text-white/70 text-sm font-medium">Settings</p>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-1 flex-col">
+<div class="border-b border-b-[#29382f] p-6">
+<div class="flex flex-col gap-2">
+<p class="text-3xl font-bold leading-tight tracking-tight text-white">Dashboard</p>
+<p class="text-sm font-normal leading-normal text-[#9eb7a8]">Welcome back, Professor Davis. Here's your attendance overview.</p>
+</div>
+</div>
+<div class="flex-1 overflow-y-auto p-6">
+<div class="grid grid-cols-1 gap-6 @lg:grid-cols-3">
+<div class="flex flex-col gap-2 rounded-xl border border-[#29382f] bg-[#1c2620] p-5">
+<p class="text-base font-medium leading-normal text-white/80">Total Classes</p>
+<p class="text-3xl font-bold leading-tight tracking-tight text-white">12</p>
+</div>
+<div class="flex flex-col gap-2 rounded-xl border border-[#29382f] bg-[#1c2620] p-5">
+<p class="text-base font-medium leading-normal text-white/80">Average Attendance</p>
+<p class="text-3xl font-bold leading-tight tracking-tight text-white">85%</p>
+</div>
+<div class="flex flex-col gap-2 rounded-xl border border-[#29382f] bg-[#1c2620] p-5">
+<p class="text-base font-medium leading-normal text-white/80">Students Enrolled</p>
+<p class="text-3xl font-bold leading-tight tracking-tight text-white">350</p>
+</div>
+</div>
+<div class="mt-8 flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<h2 class="text-xl font-bold leading-tight tracking-tight text-white">Upcoming Classes</h2>
+<button class="flex items-center gap-2 rounded-full bg-[#38e07b] px-4 py-2 text-sm font-bold text-black">
+<span class="material-symbols-outlined">add</span>
+<span>New Class</span>
+</button>
+</div>
+<div class="overflow-x-auto rounded-xl border border-[#29382f] bg-[#1c2620]">
+<table class="w-full text-left">
+<thead>
+<tr class="border-b border-b-[#29382f]">
+<th class="px-5 py-3 text-sm font-medium text-white/80">Class</th>
+<th class="px-5 py-3 text-sm font-medium text-white/80">Time</th>
+<th class="px-5 py-3 text-sm font-medium text-white/80">Attendance</th>
+<th class="px-5 py-3 text-sm font-medium text-white/80"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-b-[#29382f]">
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal text-white">Introduction to Psychology</td>
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal text-white/70">Mon, Wed, Fri 9:00 AM</td>
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal">
+<div class="flex items-center gap-3">
+<div class="h-2 w-24 rounded-full bg-[#3d5245]">
+<div class="h-2 rounded-full bg-[#38e07b]" style="width: 75%;"></div>
+</div>
+<p class="text-sm font-medium text-white">75%</p>
+</div>
+</td>
+<td class="whitespace-nowrap px-5 py-4 text-right">
+<button class="rounded-full border border-[#38e07b] px-4 py-1.5 text-sm font-medium text-[#38e07b] hover:bg-[#38e07b]/10 transition-colors">Start Attendance</button>
+</td>
+</tr>
+<tr class="border-b border-b-[#29382f]">
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal text-white">Calculus I</td>
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal text-white/70">Tue, Thu 10:30 AM</td>
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal">
+<div class="flex items-center gap-3">
+<div class="h-2 w-24 rounded-full bg-[#3d5245]">
+<div class="h-2 rounded-full bg-[#38e07b]" style="width: 90%;"></div>
+</div>
+<p class="text-sm font-medium text-white">90%</p>
+</div>
+</td>
+<td class="whitespace-nowrap px-5 py-4 text-right">
+<button class="rounded-full border border-[#38e07b] px-4 py-1.5 text-sm font-medium text-[#38e07b] hover:bg-[#38e07b]/10 transition-colors">Start Attendance</button>
+</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal text-white">Organic Chemistry</td>
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal text-white/70">Mon, Wed 1:00 PM</td>
+<td class="whitespace-nowrap px-5 py-4 text-sm font-normal">
+<div class="flex items-center gap-3">
+<div class="h-2 w-24 rounded-full bg-[#3d5245]">
+<div class="h-2 rounded-full bg-[#38e07b]" style="width: 80%;"></div>
+</div>
+<p class="text-sm font-medium text-white">80%</p>
+</div>
+</td>
+<td class="whitespace-nowrap px-5 py-4 text-right">
+<button class="rounded-full border border-[#38e07b] px-4 py-1.5 text-sm font-medium text-[#38e07b] hover:bg-[#38e07b]/10 transition-colors">Start Attendance</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="mt-8 flex flex-col gap-4">
+<h2 class="text-xl font-bold leading-tight tracking-tight text-white">Attendance Trends</h2>
+<div class="rounded-xl border border-[#29382f] bg-[#1c2620] p-6">
+<div class="flex flex-wrap items-start justify-between gap-4">
+<div>
+<p class="text-base font-medium leading-normal text-white/80">Overall Attendance Rate</p>
+<p class="text-3xl font-bold leading-tight tracking-tight text-white">82%</p>
+<div class="flex items-center gap-1.5 text-sm">
+<span class="font-medium text-[#0bda43]">+5%</span>
+<span class="text-white/70">vs last 30 days</span>
+</div>
+</div>
+<div class="flex items-center gap-2 rounded-full bg-[#111714] p-1">
+<button class="rounded-full px-3 py-1 text-xs font-medium text-white bg-[#29382f]">Monthly</button>
+<button class="rounded-full px-3 py-1 text-xs font-medium text-white/70 hover:bg-[#29382f]/50">Weekly</button>
+<button class="rounded-full px-3 py-1 text-xs font-medium text-white/70 hover:bg-[#29382f]/50">Daily</button>
+</div>
+</div>
+<div class="mt-6 flex min-h-[220px] flex-1 flex-col">
+<svg fill="none" height="100%" preserveAspectRatio="none" viewBox="0 0 478 150" width="100%" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25" stroke="#38e07b" stroke-linecap="round" stroke-width="3"></path>
+<path d="M0 109C18.1538 109 18.1538 21 36.3077 21C54.4615 21 54.4615 41 72.6154 41C90.7692 41 90.7692 93 108.923 93C127.077 93 127.077 33 145.231 33C163.385 33 163.385 101 181.538 101C199.692 101 199.692 61 217.846 61C236 61 236 45 254.154 45C272.308 45 272.308 121 290.462 121C308.615 121 308.615 149 326.769 149C344.923 149 344.923 1 363.077 1C381.231 1 381.231 81 399.385 81C417.538 81 417.538 129 435.692 129C453.846 129 453.846 25 472 25V150H0V109Z" fill="url(#paint0_linear_1131_5935)"></path>
+<defs>
+<linearGradient gradientUnits="userSpaceOnUse" id="paint0_linear_1131_5935" x1="236" x2="236" y1="1" y2="149">
+<stop stop-color="#38e07b" stop-opacity="0.2"></stop>
+<stop offset="1" stop-color="#38e07b" stop-opacity="0"></stop>
+</linearGradient>
+</defs>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>

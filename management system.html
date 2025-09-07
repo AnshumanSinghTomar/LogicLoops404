@@ -1,0 +1,126 @@
+<html><head>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<title>Logic Loops 404</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #38e07b;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+</head>
+<body class="bg-gray-900 text-white" style='font-family: "Spline Sans", "Noto Sans", sans-serif;'>
+<div class="relative flex size-full min-h-screen flex-col bg-[#111714] group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#29382f] px-10 py-3">
+<div class="flex items-center gap-4 text-white">
+<svg class="size-7" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="var(--primary-color)"></path></svg>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">CampusConnect</h2>
+</div>
+<div class="flex items-center gap-6">
+<a class="text-gray-300 hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Dashboard</a>
+<a class="text-white text-sm font-medium leading-normal" href="#">Classes</a>
+<a class="text-gray-300 hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Students</a>
+<a class="text-gray-300 hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Reports</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="relative flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-transparent text-gray-400 hover:bg-[#29382f] hover:text-white transition-colors">
+<span class="material-symbols-outlined text-2xl">
+                notifications
+              </span>
+</button>
+<div class="flex items-center gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDFCHAVTHtWemaboJ51_EqHr0nCi-c9_YEf64dyHCdEJGVv1KUKeNvaCWu4vzvxMA2bPhuZfFXS9lGabSHwng_4Kou_fj8yU_B5vpdM3lXt-m4yiJ0Dqep9lsVL270YW9q8_IVpwEGSmb8jJkh0NuZv5rZnKHcy4yjzyQ9dTOvNW12ysQoHiVvYDwqii8m-uaYbh8cZ_Yum2ScdeZ58ROpY88xnyOmcwug0jz1jB_1E82jGg-l_0AvCF7pPQIy62WTPCzVh7LCwGcw");'></div>
+<div class="flex flex-col">
+<span class="text-sm font-semibold">Prof. John Doe</span>
+<span class="text-xs text-gray-400">Faculty</span>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1 px-10 py-8">
+<div class="mx-auto max-w-7xl">
+<div class="flex items-center justify-between mb-8">
+<h1 class="text-white text-3xl font-bold">Manage Classes</h1>
+<button class="flex items-center gap-2 min-w-[84px] max-w-[480px] cursor-pointer justify-center overflow-hidden rounded-full h-10 px-6 bg-[var(--primary-color)] text-black text-sm font-bold shadow-lg hover:bg-opacity-90 transition-all">
+<span class="material-symbols-outlined">
+                  add
+                </span>
+<span class="truncate">Add New Class</span>
+</button>
+</div>
+<div class="bg-[#1c2620] rounded-xl overflow-hidden border border-[#29382f]">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-[#29382f]">
+<th class="px-6 py-4 text-sm font-semibold text-gray-300">Class Name</th>
+<th class="px-6 py-4 text-sm font-semibold text-gray-300">Attendance Method</th>
+<th class="px-6 py-4 text-sm font-semibold text-gray-300 text-center">Enrolled Students</th>
+<th class="px-6 py-4 text-sm font-semibold text-gray-300 text-right">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#29382f]">
+<tr class="hover:bg-[#29382f]/50 transition-colors">
+<td class="px-6 py-4 whitespace-nowrap text-white">Introduction to Programming</td>
+<td class="px-6 py-4 whitespace-nowrap">
+<span class="inline-flex items-center gap-2 text-gray-300">
+<span class="material-symbols-outlined text-lg text-[var(--primary-color)]">qr_code_2</span>
+                          QR Code
+                        </span>
+</td>
+<td class="px-6 py-4 whitespace-nowrap text-gray-300 text-center">30</td>
+<td class="px-6 py-4 whitespace-nowrap text-right space-x-4">
+<button class="font-semibold text-blue-400 hover:text-blue-300 transition-colors">Configure</button>
+<button class="font-semibold text-gray-400 hover:text-white transition-colors">Edit</button>
+<button class="font-semibold text-red-500 hover:text-red-400 transition-colors">Delete</button>
+</td>
+</tr>
+<tr class="hover:bg-[#29382f]/50 transition-colors">
+<td class="px-6 py-4 whitespace-nowrap text-white">Calculus I</td>
+<td class="px-6 py-4 whitespace-nowrap">
+<span class="inline-flex items-center gap-2 text-gray-300">
+<span class="material-symbols-outlined text-lg text-[var(--primary-color)]">edit_note</span>
+                          Manual
+                        </span>
+</td>
+<td class="px-6 py-4 whitespace-nowrap text-gray-300 text-center">25</td>
+<td class="px-6 py-4 whitespace-nowrap text-right space-x-4">
+<button class="font-semibold text-blue-400 hover:text-blue-300 transition-colors">Configure</button>
+<button class="font-semibold text-gray-400 hover:text-white transition-colors">Edit</button>
+<button class="font-semibold text-red-500 hover:text-red-400 transition-colors">Delete</button>
+</td>
+</tr>
+<tr class="hover:bg-[#29382f]/50 transition-colors">
+<td class="px-6 py-4 whitespace-nowrap text-white">Linear Algebra</td>
+<td class="px-6 py-4 whitespace-nowrap">
+<span class="inline-flex items-center gap-2 text-gray-300">
+<span class="material-symbols-outlined text-lg text-[var(--primary-color)]">fingerprint</span>
+                           Biometric
+                        </span>
+</td>
+<td class="px-6 py-4 whitespace-nowrap text-gray-300 text-center">20</td>
+<td class="px-6 py-4 whitespace-nowrap text-right space-x-4">
+<button class="font-semibold text-blue-400 hover:text-blue-300 transition-colors">Configure</button>
+<button class="font-semibold text-gray-400 hover:text-white transition-colors">Edit</button>
+<button class="font-semibold text-red-500 hover:text-red-400 transition-colors">Delete</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>
