@@ -1,0 +1,25 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&family=Spline+Sans:wght@400;500;700&display=swap');
+
+/* Custom primary color */
+:root {
+  --primary-color: #38e07b;
+}
+
+/* Body background and font */
+body {
+  background-color: #f9fafb;
+  font-family: 'Spline Sans', 'Noto Sans', sans-serif;
+  background-image: url('vecteezy_yellow-gradient-background-yellow-blurry-background-yellow_26831265.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #1f2937;
+}
+
+/* TailwindCSS will handle most styling, add any custom overrides here */
+
+.dark body {
+  background-color: #111714;
+  color: #e5e7eb;
+}
