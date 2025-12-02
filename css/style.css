@@ -6,7 +6,7 @@
   --primary-color: #38e07b;
 }
 
-/* Body background and font */
+/* Body background and xvcfont */
 body {
   background-color: #f9fafb;
   font-family: 'Spline Sans', 'Noto Sans', sans-serif;
@@ -23,3 +23,4 @@ body {
   background-color: #111714;
   color: #e5e7eb;
 }
+
